@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamentos – INJ Nacional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="departamentos.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="brand">
+            <img src="imgLogos/LOGO_INJ_COLOR.png" alt="INJ Logo" class="brand-logo">
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menu" data-i18n-attr="aria-label" data-i18n-key="nav.toggle">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="inicio.html" data-i18n="nav.home">Início</a></li>
+                <li class="has-dropdown">
+                    <a href="#" data-i18n="nav.about">Quem Somos</a>
+                    <div class="dropdown">
+                        <a href="em-que-acreditamos.html" data-i18n="nav.ourBeliefs">Em que acreditamos</a>
+                        <a href="diretoria-nacional.html" data-i18n="nav.nationalBoard">Diretoria Nacional</a>
+                        <a href="departamentos.html" data-i18n="nav.departments">Departamentos</a>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#" data-i18n="nav.regions">Regiões</a>
+                    <div class="dropdown">
+                        <a href="sedes.html" data-i18n="nav.regionSouth">Região Sur</a>
+                        <a href="contenido.html" data-i18n="nav.regionNorth">Região Norte</a>
+                    </div>
+                </li>
+                <li><a href="sedes.html" data-i18n="nav.headquarters">Sedes</a></li>
+                <li><a href="contenido.html" data-i18n="nav.content">Conteúdo</a></li>
+                <li><a href="doacao.html" data-i18n="nav.donation">Doação</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button class="language-select" type="button" aria-haspopup="true" aria-expanded="false">
+                <img src="https://flagcdn.com/w20/br.png" alt="Bandeira do Brasil" class="language-flag">
+                <span class="language-label">Português</span>
+                <span class="language-caret">▾</span>
+            </button>
+            <ul class="language-menu" role="menu">
+                <li>
+                    <button type="button" class="language-option" role="menuitem"
+                        data-lang="pt-BR"
+                        data-label="Português"
+                        data-flag="https://flagcdn.com/w20/br.png"
+                        data-alt="Bandeira do Brasil">
+                        <img src="https://flagcdn.com/w20/br.png" alt="Bandeira do Brasil">
+                        <span>Português</span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="language-option" role="menuitem"
+                        data-lang="es-CO"
+                        data-label="Español"
+                        data-flag="https://flagcdn.com/w20/co.png"
+                        data-alt="Bandera de Colombia">
+                        <img src="https://flagcdn.com/w20/co.png" alt="Bandera de Colombia">
+                        <span>Español</span>
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="language-option" role="menuitem"
+                        data-lang="en-US"
+                        data-label="English"
+                        data-flag="https://flagcdn.com/w20/us.png"
+                        data-alt="Flag of the United States">
+                        <img src="https://flagcdn.com/w20/us.png" alt="Flag of the United States">
+                        <span>English</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="page-content">
+            <h1 data-i18n="page.departments">Departamentos</h1>
+        </section>
+        <div class="construction-animation">
+            <div class="construction-cars">
+                <span class="truck truck-one" aria-hidden="true">🚜</span>
+                <span class="truck truck-two" aria-hidden="true">🚧</span>
+                <span class="truck truck-three" aria-hidden="true">🚛</span>
+            </div>
+            <div class="construction-text" data-i18n="banner.construction">
+                En Construcción
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer simple-footer">
+        <div class="footer-announcement">
+            <p>El anuncio</p>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
